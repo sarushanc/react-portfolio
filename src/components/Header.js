@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex items-center justify-center">
         <img
           src="/sharushan.jpg"
-          alt="Your Name"
+          alt="sharushan"
           className="w-20 h-20 rounded-full mr-4 border-2 border-white"
         />
         <div>
