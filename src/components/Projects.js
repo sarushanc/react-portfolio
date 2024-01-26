@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import BookingAppImage from '../images/booking.jpeg';
+import HangManImage from '../images/hangman.png';
 import POSImage from '../images/pos.jpeg';
 import ServiceHubImage from '../images/servicehub.jpeg';
 
@@ -13,6 +14,11 @@ const Projects = () => {
       title: 'Booking App (Laravel)',
       description: 'This is a booking app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
       imageUrl: BookingAppImage,
+    },
+    {
+      title: 'HangMan Multiplayer (Python)',
+      description: 'The Hangman Multiplayer Game is an engaging and interactive Python-based application that brings the classic Hangman game to life with a multiplayer twist. Developed using the power of Python, this game utilizes popular libraries and modules such as pickle, sys, pygame, socket, and more to create a seamless and entertaining gaming experience.',
+      imageUrl: HangManImage,
     },
     {
       title: 'POS System (Laravel)',
