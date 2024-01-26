@@ -7,28 +7,40 @@ import BookingAppImage from '../images/booking.jpeg';
 import HangManImage from '../images/hangman.png';
 import POSImage from '../images/pos.jpeg';
 import ServiceHubImage from '../images/servicehub.jpeg';
+import RecipeHubImage from '../images/recipes.png';
+import DetectorImage from '../images/vehicle-detector.png';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Booking App (Laravel)',
+      title: 'Booking App (Laravel Web)',
       description: 'This is a booking app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
       imageUrl: BookingAppImage,
     },
     {
-      title: 'HangMan Multiplayer (Python)',
+      title: 'HangMan Multiplayer (Python App)',
       description: 'The Hangman Multiplayer Game is an engaging and interactive Python-based application that brings the classic Hangman game to life with a multiplayer twist. Developed using the power of Python, this game utilizes popular libraries and modules such as pickle, sys, pygame, socket, and more to create a seamless and entertaining gaming experience.',
       imageUrl: HangManImage,
     },
     {
-      title: 'POS System (Laravel)',
+      title: 'Vehicle Detection GUI (Python)',
+      description: 'This Python script implements a Vehicle Detection GUI using the YOLO (You Only Look Once) model and Tkinter. It reads an image, processes it with YOLO, and displays the results in a Tkinter GUI. The script includes a canvas for the original image with bounding boxes around detected vehicles and a listbox showing details of each identified vehicle. The YOLO model is loaded using OpenCV, and the GUI is developed with Tkinter. This project showcases the integration of computer vision techniques and graphical user interfaces for real-world applications.',
+      imageUrl: DetectorImage,
+    },
+    {
+      title: 'POS System (Laravel Web)',
       description: 'This is a point-of-sale (POS) system developed for a pharmacy. It is designed to streamline the sales and inventory management processes, making it easier for the pharmacy to manage their operations efficiently.\n\nThe system was built using Laravel, HTML, CSS, JavaScript, and MySQL. It provides a user-friendly interface for handling various tasks, such as processing sales, managing inventory, generating reports, and tracking customer information.',
       imageUrl: POSImage,
     },
     {
-      title: 'ServiceHub App (Laravel)',
+      title: 'ServiceHub App (Laravel Backend Web)',
       description: 'This is a services related app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
       imageUrl: ServiceHubImage,
+    },
+    {
+      title: 'Recipe Hub (Python Web)',
+      description: 'Recipe Hub is a secure and user-friendly web platform for culinary enthusiasts. Developed with Flask (Python), SQLite, and the power of regex, this web app provides a seamless CRUD interface for creating, organizing, and sharing recipes. User authentication is ensured using Werkzeug for password security. Explore a diverse collection of recipes, rate and review, and enjoy a personalized dashboard in this interactive cooking experience.',
+      imageUrl: RecipeHubImage, 
     },
   ];
 
@@ -55,6 +67,7 @@ const Projects = () => {
                   src={project.imageUrl}
                   alt={`${project.title} Preview`}
                   className="rounded-md shadow-md max-w-full h-auto"
+                  style={{ maxHeight: '500px' }}
                 />
               </div>
             )}
