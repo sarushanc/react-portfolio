@@ -9,6 +9,7 @@ import POSImage from '../images/pos.jpeg';
 import ServiceHubImage from '../images/servicehub.jpeg';
 import RecipeHubImage from '../images/recipes.png';
 import DetectorImage from '../images/vehicle-detector.png';
+import NICDecoder from '../images/nic-decoder.png';
 
 const Projects = () => {
   const projects = [
@@ -31,6 +32,19 @@ const Projects = () => {
       title: 'POS System (Laravel Web)',
       description: 'This is a point-of-sale (POS) system developed for a pharmacy. It is designed to streamline the sales and inventory management processes, making it easier for the pharmacy to manage their operations efficiently.\n\nThe system was built using Laravel, HTML, CSS, JavaScript, and MySQL. It provides a user-friendly interface for handling various tasks, such as processing sales, managing inventory, generating reports, and tracking customer information.',
       imageUrl: POSImage,
+    },
+    {
+      title: 'NIC Decoder (React Web)',
+      description: (
+        <>
+          Uncover the secrets hidden in Sri Lankan National Identity Cards (NIC) with the NIC Decoder React Web App. This innovative project allows users to effortlessly decode crucial details like gender and date of birth by simply inputting the NIC number. Crafted with React, the NIC Decoder offers an intuitive and responsive interface for swift information retrieval. Visit the NIC Decoder at{' '}
+          <a href="https://sarushanc.github.io/nic_decode/" target="_blank" rel="noopener noreferrer">
+            https://sarushanc.github.io/nic_decode/
+          </a>{' '}
+          to experience a seamless and efficient way to decode NIC details.
+        </>
+      ),
+      imageUrl: NICDecoder,
     },
     {
       title: 'ServiceHub App (Laravel Backend Web)',

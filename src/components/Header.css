@@ -1,0 +1,17 @@
+/* Header.css */
+.profile-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+  }
+  
+  .profile-container:hover {
+    transform: scale(1.3); /* Adjust the scale factor for the desired zoom effect */
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust the initial size */
+    height: 100px; /* Adjust the initial size */
+    transition: transform 0.3s ease-in-out; /* Match the duration and easing with the container */
+  }
+  
