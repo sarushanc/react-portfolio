@@ -10,9 +10,23 @@ import ServiceHubImage from '../images/servicehub.jpeg';
 import RecipeHubImage from '../images/recipes.png';
 import DetectorImage from '../images/vehicle-detector.png';
 import NICDecoder from '../images/nic-decoder.png';
+import FamilyDriverImage from '../images/familydriver.png';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Family Driver (Laravel Backend)',
+      description: (
+      <>
+      Simplify ride bookings and enhance safety with Family Driver, a Laravel backend system. Manage driver bookings, track rides, and facilitate communication effortlessly. Visit{' '}
+      <b><a href="https://familydriver.lk" target="_blank" rel="noopener noreferrer">
+      familydriver.lk
+      </a></b>
+      {' '}to learn more.
+      </>
+      ),
+      imageUrl: FamilyDriverImage,
+    },
     {
       title: 'Booking App (Laravel Web)',
       description: 'This is a booking app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
@@ -38,9 +52,9 @@ const Projects = () => {
       description: (
         <>
           Uncover the secrets hidden in Sri Lankan National Identity Cards (NIC) with the NIC Decoder React Web App. This innovative project allows users to effortlessly decode crucial details like gender and date of birth by simply inputting the NIC number. Crafted with React, the NIC Decoder offers an intuitive and responsive interface for swift information retrieval. Visit the NIC Decoder at{' '}
-          <a href="https://sarushanc.github.io/nic_decode/" target="_blank" rel="noopener noreferrer">
+          <b><a href="https://sarushanc.github.io/nic_decode/" target="_blank" rel="noopener noreferrer">
             https://sarushanc.github.io/nic_decode/
-          </a>{' '}
+          </a></b>{' '}
           to experience a seamless and efficient way to decode NIC details.
         </>
       ),
