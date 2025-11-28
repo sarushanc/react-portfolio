@@ -99,31 +99,17 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, title, description, link, tech }) => (
+          {projects.map(({ id, src, title, description, tech }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 group relative overflow-hidden">
               <img
                 src={src}
-                alt=""
+                alt={title}
                 className="rounded-md duration-200 hover:scale-105 h-48 w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
                 <h3 className="text-xl font-bold text-white">{title}</h3>
                 <p className="text-sm text-gray-300">{description}</p>
                 <span className="text-xs font-semibold text-primary mt-1">{tech}</span>
-              </div>
-              <div className="flex items-center justify-center bg-gray-800 rounded-b-lg">
-                {link ? (
-                  <a href={link} target="_blank" rel="noreferrer" className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-primary rounded-md">
-                    Demo
-                  </a>
-                ) : (
-                  <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 cursor-default text-gray-500">
-                    No Demo
-                  </button>
-                )}
-                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button> */}
               </div>
             </div>
           ))}

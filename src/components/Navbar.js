@@ -31,8 +31,8 @@ const Navbar = () => {
             className={`flex justify-between items-center w-full h-20 px-4 text-white fixed z-50 transition-all duration-300 ${scrolled ? 'bg-dark/80 backdrop-blur-md shadow-lg' : 'bg-transparent'
                 }`}
         >
-            <div>
-                <h1 className="text-2xl md:text-3xl font-bold ml-2 cursor-pointer hover:text-primary transition-colors duration-300">
+            <div className="flex-1 min-w-0 mr-4">
+                <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold ml-2 cursor-pointer hover:text-primary transition-colors duration-300 truncate">
                     <Link to="home" smooth duration={500}>
                         Chandrasekar Sharushan
                     </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
             <div
                 onClick={() => setNav(!nav)}
-                className="cursor-pointer pr-4 z-10 text-gray-300 md:hidden hover:text-primary transition-colors"
+                className="cursor-pointer pr-4 z-10 text-gray-300 md:hidden hover:text-primary transition-colors flex-shrink-0"
             >
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
