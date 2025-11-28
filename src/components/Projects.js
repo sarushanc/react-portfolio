@@ -1,8 +1,4 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
 import BookingAppImage from '../images/booking.jpeg';
 import HangManImage from '../images/hangman.png';
 import POSImage from '../images/pos.jpeg';
@@ -15,95 +11,116 @@ import FamilyDriverImage from '../images/familydriver.png';
 const Projects = () => {
   const projects = [
     {
-      title: 'Family Driver (Laravel Backend)',
-      description: (
-      <>
-      Simplify ride bookings and enhance safety with Family Driver, a Laravel backend system. Manage driver bookings, track rides, and facilitate communication effortlessly. Visit{' '}
-      <b><a href="https://familydriver.lk" target="_blank" rel="noopener noreferrer">
-      familydriver.lk
-      </a></b>
-      {' '}to learn more.
-      </>
-      ),
-      imageUrl: FamilyDriverImage,
+      id: 1,
+      title: 'Family Driver',
+      description: 'Laravel backend system for driver bookings and ride tracking.',
+      src: FamilyDriverImage,
+      link: 'https://familydriver.lk',
+      tech: 'Laravel'
     },
     {
-      title: 'Booking App (Laravel Web)',
-      description: 'This is a booking app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
-      imageUrl: BookingAppImage,
+      id: 2,
+      title: 'Booking App',
+      description: 'Backend and APIs for a mobile booking application.',
+      src: BookingAppImage,
+      link: '',
+      tech: 'Laravel'
     },
     {
-      title: 'HangMan Multiplayer (Python App)',
-      description: 'The Hangman Multiplayer Game is an engaging and interactive Python-based application that brings the classic Hangman game to life with a multiplayer twist. Developed using the power of Python, this game utilizes popular libraries and modules such as pickle, sys, pygame, socket, and more to create a seamless and entertaining gaming experience.',
-      imageUrl: HangManImage,
+      id: 3,
+      title: 'HangMan Multiplayer',
+      description: 'Interactive Python-based multiplayer Hangman game.',
+      src: HangManImage,
+      link: '',
+      tech: 'Python'
     },
     {
-      title: 'Vehicle Detection GUI (Python)',
-      description: 'This Python script implements a Vehicle Detection GUI using the YOLO (You Only Look Once) model and Tkinter. It reads an image, processes it with YOLO, and displays the results in a Tkinter GUI. The script includes a canvas for the original image with bounding boxes around detected vehicles and a listbox showing details of each identified vehicle. The YOLO model is loaded using OpenCV, and the GUI is developed with Tkinter. This project showcases the integration of computer vision techniques and graphical user interfaces for real-world applications.',
-      imageUrl: DetectorImage,
+      id: 4,
+      title: 'Vehicle Detection GUI',
+      description: 'YOLO model and Tkinter based vehicle detection system.',
+      src: DetectorImage,
+      link: '',
+      tech: 'Python'
     },
     {
-      title: 'POS System (Laravel Web)',
-      description: 'This is a point-of-sale (POS) system developed for a pharmacy. It is designed to streamline the sales and inventory management processes, making it easier for the pharmacy to manage their operations efficiently.\n\nThe system was built using Laravel, HTML, CSS, JavaScript, and MySQL. It provides a user-friendly interface for handling various tasks, such as processing sales, managing inventory, generating reports, and tracking customer information.',
-      imageUrl: POSImage,
+      id: 5,
+      title: 'POS System',
+      description: 'Point-of-sale system for pharmacy management.',
+      src: POSImage,
+      link: '',
+      tech: 'Laravel'
     },
     {
-      title: 'NIC Decoder (React Web)',
-      description: (
-        <>
-          Uncover the secrets hidden in Sri Lankan National Identity Cards (NIC) with the NIC Decoder React Web App. This innovative project allows users to effortlessly decode crucial details like gender and date of birth by simply inputting the NIC number. Crafted with React, the NIC Decoder offers an intuitive and responsive interface for swift information retrieval. Visit the NIC Decoder at{' '}
-          <b><a href="https://sarushanc.github.io/nic_decode/" target="_blank" rel="noopener noreferrer">
-            https://sarushanc.github.io/nic_decode/
-          </a></b>{' '}
-          to experience a seamless and efficient way to decode NIC details.
-        </>
-      ),
-      imageUrl: NICDecoder,
+      id: 6,
+      title: 'NIC Decoder',
+      description: 'React web app to decode Sri Lankan NIC details.',
+      src: NICDecoder,
+      link: 'https://sarushanc.github.io/nic_decode/',
+      tech: 'React'
     },
     {
-      title: 'ServiceHub App (Laravel Backend Web)',
-      description: 'This is a services related app project where I developed the backend and APIs for the mobile app. I used Laravel, HTML, CSS, JavaScript, jQuery, Bootstrap, and MySQL to build the system.',
-      imageUrl: ServiceHubImage,
+      id: 7,
+      title: 'ServiceHub App',
+      description: 'Backend and APIs for a service-related mobile app.',
+      src: ServiceHubImage,
+      link: '',
+      tech: 'Laravel'
     },
     {
-      title: 'Recipe Hub (Python Web)',
-      description: 'Recipe Hub is a secure and user-friendly web platform for culinary enthusiasts. Developed with Flask (Python), SQLite, and the power of regex, this web app provides a seamless CRUD interface for creating, organizing, and sharing recipes. User authentication is ensured using Werkzeug for password security. Explore a diverse collection of recipes, rate and review, and enjoy a personalized dashboard in this interactive cooking experience.',
-      imageUrl: RecipeHubImage, 
+      id: 8,
+      title: 'Recipe Hub',
+      description: 'Flask-based web platform for sharing recipes.',
+      src: RecipeHubImage,
+      link: '',
+      tech: 'Python'
     },
   ];
 
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
   return (
-    <section className="bg-gray-200 p-8">
-      <h2 className="text-3xl font-bold mb-4">Projects</h2>
-      <Slider {...sliderSettings}>
-        {projects.map((project, index) => (
-          <div key={index} className="mb-4">
-            <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-            {project.imageUrl && (
-              <div className="flex items-center justify-center">
-                <img
-                  src={project.imageUrl}
-                  alt={`${project.title} Preview`}
-                  className="rounded-md shadow-md max-w-full h-auto"
-                  style={{ maxHeight: '500px' }}
-                />
+    <div
+      name="projects"
+      className="bg-gradient-to-b from-dark to-gray-900 w-full text-white md:h-screen"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Projects
+          </p>
+          <p className="py-6">Check out some of my work right here</p>
+        </div>
+
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {projects.map(({ id, src, title, description, link, tech }) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 group relative overflow-hidden">
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105 h-48 w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+                <h3 className="text-xl font-bold text-white">{title}</h3>
+                <p className="text-sm text-gray-300">{description}</p>
+                <span className="text-xs font-semibold text-primary mt-1">{tech}</span>
               </div>
-            )}
-            <p className="text-gray-700">{project.description}</p>
-          </div>
-        ))}
-      </Slider>
-    </section>
+              <div className="flex items-center justify-center bg-gray-800 rounded-b-lg">
+                {link ? (
+                  <a href={link} target="_blank" rel="noreferrer" className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-primary rounded-md">
+                    Demo
+                  </a>
+                ) : (
+                  <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 cursor-default text-gray-500">
+                    No Demo
+                  </button>
+                )}
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Code
+                </button> */}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 };
 
