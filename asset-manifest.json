@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6f975401.css",
-    "main.js": "/react-portfolio/static/js/main.f0b0b0f8.js",
+    "main.js": "/react-portfolio/static/js/main.8b105c05.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/recipes.png": "/react-portfolio/static/media/recipes.a7e7ea9dffa1ab87ed3c.png",
     "static/media/vehicle-detector.png": "/react-portfolio/static/media/vehicle-detector.411f6f0ae70bcab4c348.png",
     "static/media/familydriver.png": "/react-portfolio/static/media/familydriver.d42a8d8cd1763e1ea524.png",
     "static/media/nic-decoder.png": "/react-portfolio/static/media/nic-decoder.35d9c651da83f6e5352b.png",
     "static/media/ECommerce.png": "/react-portfolio/static/media/ECommerce.ec288f3bfbd6731e70a1.png",
+    "static/media/pos.png": "/react-portfolio/static/media/pos.1d6d022bad0e14a56346.png",
     "static/media/hangman.png": "/react-portfolio/static/media/hangman.e42bcd64ffeda6d37d0e.png",
-    "static/media/pos.jpeg": "/react-portfolio/static/media/pos.72fa5790e26ec0eb1601.jpeg",
     "static/media/booking.jpeg": "/react-portfolio/static/media/booking.fe4204799091fad4d6e2.jpeg",
     "static/media/servicehub.jpeg": "/react-portfolio/static/media/servicehub.e1605d16476a200c92b5.jpeg",
     "static/media/sharushan.jpg": "/react-portfolio/static/media/sharushan.f4b97339532d904e1107.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.6f975401.css.map": "/react-portfolio/static/css/main.6f975401.css.map",
-    "main.f0b0b0f8.js.map": "/react-portfolio/static/js/main.f0b0b0f8.js.map",
+    "main.8b105c05.js.map": "/react-portfolio/static/js/main.8b105c05.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f975401.css",
-    "static/js/main.f0b0b0f8.js"
+    "static/js/main.8b105c05.js"
   ]
 }
