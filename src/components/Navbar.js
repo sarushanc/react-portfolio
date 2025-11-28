@@ -32,9 +32,9 @@ const Navbar = () => {
                 }`}
         >
             <div>
-                <h1 className="text-5xl font-signature ml-2 cursor-pointer hover:text-primary transition-colors duration-300">
+                <h1 className="text-2xl md:text-3xl font-bold ml-2 cursor-pointer hover:text-primary transition-colors duration-300">
                     <Link to="home" smooth duration={500}>
-                        CS
+                        Chandrasekar Sharushan
                     </Link>
                 </h1>
             </div>
