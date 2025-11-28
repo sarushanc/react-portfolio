@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import ProfileImage from '../images/sharushan.jpg';
 
 const Hero = () => {
@@ -46,13 +47,6 @@ const Hero = () => {
                                 ➡️
                             </span>
                         </Link>
-                        <a
-                            href="/resume.pdf" // Assuming you might have a resume
-                            download={true}
-                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gray-700 cursor-pointer hover:bg-gray-600 hover:scale-105 duration-300"
-                        >
-                            Resume
-                        </a>
                     </motion.div>
 
                     <motion.div
@@ -62,8 +56,8 @@ const Hero = () => {
                         className="flex mt-8 gap-6 text-gray-400"
                     >
                         <a href="https://github.com/sarushanc" target="_blank" rel="noreferrer" className="hover:text-primary duration-300 text-3xl"><FaGithub /></a>
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-primary duration-300 text-3xl"><FaLinkedin /></a>
-                        <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-primary duration-300 text-3xl"><FaTwitter /></a>
+                        <a href="https://www.linkedin.com/in/sharushan-chandrasekar-b79651100/" target="_blank" rel="noreferrer" className="hover:text-primary duration-300 text-3xl"><FaLinkedin /></a>
+                        <a href="https://x.com/sarushan1994" target="_blank" rel="noreferrer" className="hover:text-primary duration-300 text-3xl"><FaXTwitter /></a>
                     </motion.div>
                 </div>
 
