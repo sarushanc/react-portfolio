@@ -27,7 +27,7 @@ const Hero = () => {
                         transition={{ delay: 0.5, duration: 0.8 }}
                         className="text-gray-400 py-4 max-w-md text-lg"
                     >
-                        I have a passion for building and designing software. Currently, I love to work on web application using technologies like React, Tailwind, and Python.
+                        I have a passion for building and designing software. Currently, I love to work on web application using technologies like Laravel, React, Tailwind, and Python.
                     </motion.p>
 
                     <motion.div

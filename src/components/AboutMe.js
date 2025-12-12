@@ -14,15 +14,14 @@ const AboutMe = () => {
         </div>
 
         <p className="text-xl mt-20 text-gray-300 leading-relaxed">
-          I am a dedicated Full Stack Developer with a strong foundation in both front-end and back-end technologies.
-          I specialize in building responsive, user-friendly web applications using React, Tailwind CSS, and Node.js.
+          I am a dedicated Full Stack Developer with strong expertise in Laravel for backend development. I specialize in building robust, scalable web applications with Laravel, combined with modern front-end technologies like React and Tailwind CSS.
           My journey in tech has been driven by a curiosity to understand how things work and a desire to create impactful solutions.
         </p>
 
         <br />
 
         <p className="text-xl text-gray-300 leading-relaxed">
-          Beyond coding, I am an enthusiast of Python and AI, constantly exploring new libraries and frameworks to stay ahead of the curve.
+          I am particularly proficient in Laravel, having developed multiple projects with its MVC architecture, Eloquent ORM, and powerful features. Beyond Laravel, I am an enthusiast of Python and AI, constantly exploring new libraries and frameworks to stay ahead of the curve.
           I believe in clean code, continuous learning, and the power of collaboration to bring great ideas to life.
         </p>
 
@@ -33,7 +32,7 @@ const AboutMe = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
             <p className="font-bold text-xl text-secondary">Backend</p>
-            <p className="mt-2 text-gray-400">Node, Python, Laravel</p>
+            <p className="mt-2 text-gray-400">Laravel, Node, Python</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
             <p className="font-bold text-xl text-blue-500">Database</p>
