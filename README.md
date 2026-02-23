@@ -1,5 +1,8 @@
 <!-- # Getting Started with Create React App
 
+> 📄 This portfolio includes a link to the author's CV (`sharushancv.pdf`). The PDF is embedded in the site and also available for download from the navigation bar or footer.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

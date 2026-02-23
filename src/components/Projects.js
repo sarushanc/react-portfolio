@@ -10,6 +10,8 @@ import FamilyDriverImage from '../images/familydriver.png';
 import ECommerceImage from '../images/ECommerce.png';
 
 const Projects = () => {
+  // add or update entries in this array to reflect the projects listed on your CV
+  // make sure each object has a unique id, title, description, src, link (if available), and tech tag
   const projects = [
     {
       id: 9,

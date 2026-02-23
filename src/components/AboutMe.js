@@ -1,4 +1,5 @@
 import React from 'react';
+import SharushanCV from '../sharushancv.pdf';
 
 const AboutMe = () => {
   return (
@@ -14,7 +15,7 @@ const AboutMe = () => {
         </div>
 
         <p className="text-xl mt-20 text-gray-300 leading-relaxed">
-          I am a dedicated Full Stack Developer with strong expertise in Laravel for backend development. I specialize in building robust, scalable web applications with Laravel, combined with modern front-end technologies like React and Tailwind CSS.
+          I am a dedicated Full Stack Developer **currently working as [Your Current Job Title] at [Your Company]** with strong expertise in Laravel for backend development. I specialize in building robust, scalable web applications with Laravel, combined with modern front-end technologies like React and Tailwind CSS.
           My journey in tech has been driven by a curiosity to understand how things work and a desire to create impactful solutions.
         </p>
 
@@ -22,7 +23,7 @@ const AboutMe = () => {
 
         <p className="text-xl text-gray-300 leading-relaxed">
           I am particularly proficient in Laravel, having developed multiple projects with its MVC architecture, Eloquent ORM, and powerful features. Beyond Laravel, I am an enthusiast of Python and AI, constantly exploring new libraries and frameworks to stay ahead of the curve.
-          I believe in clean code, continuous learning, and the power of collaboration to bring great ideas to life.
+          In the CV linked above you’ll find details about my most recent projects and work history—feel free to review and let me know if you have questions.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-center">
@@ -42,6 +43,15 @@ const AboutMe = () => {
             <p className="font-bold text-xl text-green-500">Tools</p>
             <p className="mt-2 text-gray-400">Git, Docker</p>
           </div>
+        </div>
+
+        <div className="mt-8">
+          <a
+            href={SharushanCV}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline"
+          >Download / view my CV</a>
         </div>
 
         <div className="mt-20">
