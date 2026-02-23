@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.698565b6.css",
-    "main.js": "/react-portfolio/static/js/main.a8ecc20f.js",
+    "main.css": "/react-portfolio/static/css/main.a44d63e0.css",
+    "main.js": "/react-portfolio/static/js/main.5c4a0e2b.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/recipes.png": "/react-portfolio/static/media/recipes.a7e7ea9dffa1ab87ed3c.png",
     "static/media/vehicle-detector.png": "/react-portfolio/static/media/vehicle-detector.411f6f0ae70bcab4c348.png",
     "static/media/familydriver.png": "/react-portfolio/static/media/familydriver.d42a8d8cd1763e1ea524.png",
     "static/media/nic-decoder.png": "/react-portfolio/static/media/nic-decoder.35d9c651da83f6e5352b.png",
     "static/media/ECommerce.png": "/react-portfolio/static/media/ECommerce.ec288f3bfbd6731e70a1.png",
+    "static/media/sharushancv.pdf": "/react-portfolio/static/media/sharushancv.37d8b86469424d773175.pdf",
     "static/media/pos.png": "/react-portfolio/static/media/pos.1d6d022bad0e14a56346.png",
     "static/media/hangman.png": "/react-portfolio/static/media/hangman.e42bcd64ffeda6d37d0e.png",
     "static/media/booking.jpeg": "/react-portfolio/static/media/booking.fe4204799091fad4d6e2.jpeg",
     "static/media/servicehub.jpeg": "/react-portfolio/static/media/servicehub.e1605d16476a200c92b5.jpeg",
     "static/media/sharushan.jpg": "/react-portfolio/static/media/sharushan.f4b97339532d904e1107.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.698565b6.css.map": "/react-portfolio/static/css/main.698565b6.css.map",
-    "main.a8ecc20f.js.map": "/react-portfolio/static/js/main.a8ecc20f.js.map",
+    "main.a44d63e0.css.map": "/react-portfolio/static/css/main.a44d63e0.css.map",
+    "main.5c4a0e2b.js.map": "/react-portfolio/static/js/main.5c4a0e2b.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.698565b6.css",
-    "static/js/main.a8ecc20f.js"
+    "static/css/main.a44d63e0.css",
+    "static/js/main.5c4a0e2b.js"
   ]
 }
