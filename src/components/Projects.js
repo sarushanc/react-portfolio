@@ -2,7 +2,8 @@ import React from 'react';
 import BookingAppImage from '../images/booking.jpeg';
 import HangManImage from '../images/hangman.png';
 import POSImage from '../images/pos.png';
-import ServiceHubImage from '../images/servicehub.jpeg';
+// import ServiceHubImage from '../images/servicehub.jpeg';
+import MedispiresImage from '../images/medispires.png';
 import RecipeHubImage from '../images/recipes.png';
 import DetectorImage from '../images/vehicle-detector.png';
 import NICDecoder from '../images/nic-decoder.png';
@@ -71,11 +72,11 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: 'ServiceHub App',
-      description: 'Backend and APIs for a service-related mobile app.',
-      src: ServiceHubImage,
-      link: '',
-      tech: 'Laravel'
+      title: 'Medispires Invoice Management',
+      description: 'MERN-based invoice management system for a medical agency.',
+      src: MedispiresImage,
+      link: 'https://medispires.esanwin.com/',
+      tech: 'MERN'
     },
     {
       id: 8,
