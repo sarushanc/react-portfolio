@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8dfc4d7c.css",
-    "main.js": "/react-portfolio/static/js/main.13b3a3d6.js",
+    "main.js": "/react-portfolio/static/js/main.fcd74059.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/recipes.png": "/react-portfolio/static/media/recipes.a7e7ea9dffa1ab87ed3c.png",
     "static/media/vehicle-detector.png": "/react-portfolio/static/media/vehicle-detector.411f6f0ae70bcab4c348.png",
@@ -13,15 +13,14 @@
     "static/media/sharushancv.pdf": "/react-portfolio/static/media/sharushancv.37d8b86469424d773175.pdf",
     "static/media/pos.png": "/react-portfolio/static/media/pos.1d6d022bad0e14a56346.png",
     "static/media/hangman.png": "/react-portfolio/static/media/hangman.e42bcd64ffeda6d37d0e.png",
-    "static/media/booking.jpeg": "/react-portfolio/static/media/booking.fe4204799091fad4d6e2.jpeg",
     "static/media/sharushan.jpg": "/react-portfolio/static/media/sharushan.f4b97339532d904e1107.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.8dfc4d7c.css.map": "/react-portfolio/static/css/main.8dfc4d7c.css.map",
-    "main.13b3a3d6.js.map": "/react-portfolio/static/js/main.13b3a3d6.js.map",
+    "main.fcd74059.js.map": "/react-portfolio/static/js/main.fcd74059.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8dfc4d7c.css",
-    "static/js/main.13b3a3d6.js"
+    "static/js/main.fcd74059.js"
   ]
 }
