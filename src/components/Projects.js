@@ -1,5 +1,5 @@
 import React from 'react';
-import BookingAppImage from '../images/booking.jpeg';
+// import BookingAppImage from '../images/booking.jpeg';
 import HangManImage from '../images/hangman.png';
 import POSImage from '../images/pos.png';
 // import ServiceHubImage from '../images/servicehub.jpeg';
@@ -39,14 +39,14 @@ const Projects = () => {
       link: 'https://familydriver.lk',
       tech: 'Laravel'
     },
-    {
-      id: 2,
-      title: 'Booking App',
-      description: 'Backend and APIs for a mobile booking application.',
-      src: BookingAppImage,
-      link: '',
-      tech: 'Laravel'
-    },
+    // {
+    //   id: 2,
+    //   title: 'Booking App',
+    //   description: 'Backend and APIs for a mobile booking application.',
+    //   src: BookingAppImage,
+    //   link: '',
+    //   tech: 'Laravel'
+    // },
     {
       id: 3,
       title: 'HangMan Multiplayer',
