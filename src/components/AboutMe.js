@@ -9,38 +9,36 @@ const AboutMe = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20 text-gray-300 leading-relaxed">
-          I am a dedicated Full Stack Developer **currently working as [Your Current Job Title] at [Your Company]** with strong expertise in Laravel for backend development. I specialize in building robust, scalable web applications with Laravel, combined with modern front-end technologies like React and Tailwind CSS.
-          My journey in tech has been driven by a curiosity to understand how things work and a desire to create impactful solutions.
+        <p className="text-xl mt-10 text-gray-300 leading-relaxed">
+          I am a Full Stack Developer with strong backend expertise in Laravel and practical experience delivering modern web products with MERN, React, and Tailwind CSS. I focus on building solutions that are stable, maintainable, and aligned with business workflows.
         </p>
 
         <br />
 
         <p className="text-xl text-gray-300 leading-relaxed">
-          I am particularly proficient in Laravel, having developed multiple projects with its MVC architecture, Eloquent ORM, and powerful features. Beyond Laravel, I am an enthusiast of Python and AI, constantly exploring new libraries and frameworks to stay ahead of the curve.
-          In the CV linked above you’ll find details about my most recent projects and work history—feel free to review and let me know if you have questions.
+          Alongside web development, I actively work with Python for automation and intelligent systems. You can find details of my project history, education, and technical experience in the CV linked below.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-center">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 text-center">
+          <div className="shadow-md shadow-black/30 hover:-translate-y-1 duration-300 py-4 rounded-lg bg-slate-800 border border-slate-700">
             <p className="font-bold text-xl text-primary">Frontend</p>
             <p className="mt-2 text-gray-400">React, Tailwind, Bootstrap</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
+          <div className="shadow-md shadow-black/30 hover:-translate-y-1 duration-300 py-4 rounded-lg bg-slate-800 border border-slate-700">
             <p className="font-bold text-xl text-secondary">Backend</p>
             <p className="mt-2 text-gray-400">Laravel, Node, Python</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
-            <p className="font-bold text-xl text-blue-500">Database</p>
+          <div className="shadow-md shadow-black/30 hover:-translate-y-1 duration-300 py-4 rounded-lg bg-slate-800 border border-slate-700">
+            <p className="font-bold text-xl text-sky-400">Database</p>
             <p className="mt-2 text-gray-400">SQL, MongoDB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4 rounded-lg bg-gray-800">
-            <p className="font-bold text-xl text-green-500">Tools</p>
+          <div className="shadow-md shadow-black/30 hover:-translate-y-1 duration-300 py-4 rounded-lg bg-slate-800 border border-slate-700">
+            <p className="font-bold text-xl text-emerald-400">Tools</p>
             <p className="mt-2 text-gray-400">Git, Docker</p>
           </div>
         </div>
@@ -51,11 +49,11 @@ const AboutMe = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary underline"
-          >Download / view my CV</a>
+          >View or download my CV</a>
         </div>
 
         <div className="mt-20">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
             Education
           </p>
           <div className="mt-8">

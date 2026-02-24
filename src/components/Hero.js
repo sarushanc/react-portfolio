@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaArrowRight, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import ProfileImage from '../images/sharushan.jpg';
 
@@ -17,17 +17,17 @@ const Hero = () => {
                         initial={{ opacity: 0, y: -50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="text-4xl sm:text-7xl font-bold text-white"
+                        className="text-4xl sm:text-7xl font-bold text-white leading-tight"
                     >
-                        I'm a Full Stack Developer
+                        Full Stack Developer
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 0.8 }}
-                        className="text-gray-400 py-4 max-w-md text-lg"
+                        className="text-gray-300 py-4 max-w-md text-lg"
                     >
-                        I have a passion for building and designing software. Currently, I love to work on web application using technologies like Laravel, React, Tailwind, and Python.
+                        I build reliable web applications with Laravel, MERN, and Python, turning complex business needs into clean, usable products.
                     </motion.p>
 
                     <motion.div
@@ -44,7 +44,7 @@ const Hero = () => {
                         >
                             Portfolio
                             <span className="group-hover:rotate-90 duration-300 ml-2">
-                                ➡️
+                                <FaArrowRight />
                             </span>
                         </Link>
                     </motion.div>
